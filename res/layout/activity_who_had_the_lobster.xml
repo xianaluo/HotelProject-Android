@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hotelproject.WhoHadTheLobster" 
+    android:background="@drawable/backg">
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ 
+	       <ScrollView
+			    android:id="@+id/sv_lets_go_dutch_screen"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_marginTop="10dp"
+			    android:layout_weight="3">
+			    
+			   <TableLayout
+			      android:id="@+id/tl_who_had_the_lobster"
+			      android:layout_width="match_parent"
+			      android:layout_height="wrap_content">
+   
+			    </TableLayout>
+		  </ScrollView>
+	           
+    
+	     <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="4" >
+	
+	            <ListView
+	                android:id="@+id/lv_item_table_who_had_the_lobster"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_alignParentLeft="true"
+	                android:layout_alignParentTop="true"
+	                android:background="@drawable/border_menu" >
+	            </ListView>
+	
+	    </RelativeLayout>
+
+    </LinearLayout>
+    
+ </RelativeLayout>

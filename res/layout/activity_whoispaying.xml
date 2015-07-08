@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3" >
+
+        <Button
+            android:id="@+id/bt_itsonme"
+            style="@style/btnStyleGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_whoispaying"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_btn_green"
+            android:layout_marginLeft="20dp"
+            android:text="Its on me" />
+        
+          <Button
+            android:id="@+id/bt_letsgoductch"
+            style="@style/btnStyleOrange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_itsonme"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            
+            android:background="@drawable/custom_btn_orange"
+            android:layout_marginLeft="20dp"
+            android:text="Lets go Dutch" />
+          
+           <Button
+            android:id="@+id/bt_whohadthelobster"
+            style="@style/btnStyleBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_letsgoductch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            
+            android:background="@drawable/custom_btn_blue"
+            android:layout_marginLeft="20dp"
+            android:text="Who had the Lobster?" />
+          
+          
+          
+
+          <TextView
+              android:id="@+id/tv_whoispaying"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/bt_amount_whoispaying"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="60dp"
+              android:textColor="#FFFFFF"
+              android:text="Who&apos;s Paying?"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+
+          <Button
+              android:id="@+id/bt_amount_whoispaying"
+              style="@style/btnStyleWhite"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="68dp"
+              android:background="@drawable/custom_btn_white"
+              android:textSize="25sp"
+              android:text="Total:Amount" />
+
+          <TextView
+              android:id="@+id/tv_order_id_whoispaying"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="32dp"
+              android:text="TextView" 
+              android:textSize="25sp"
+              android:textColor="#76ff03"
+       		  android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4" >
+
+            <ListView
+                android:id="@+id/lv_item_table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/border_menu" >
+            </ListView>
+
+    </RelativeLayout>
+    
+</LinearLayout>

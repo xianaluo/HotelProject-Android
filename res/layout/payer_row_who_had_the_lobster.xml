@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="5dp"
+        android:layout_weight="1" 
+   		android:background="@drawable/border_menu_who_had_the_lobster" >
+
+        <Button
+            android:id="@+id/bt_payer_name_who_had_the_lobster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+        	android:layout_marginBottom="5dp"
+       		android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+            android:background="@drawable/button_flat_green_purple"
+            android:padding="8dp"
+            android:text="Payer 1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+		<TextView
+		    android:id="@+id/tv_payer_amount_who_had_the_lobster"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignRight="@+id/bt_payer_name_who_had_the_lobster"
+		    android:layout_below="@+id/bt_payer_name_who_had_the_lobster"
+		    android:background="@drawable/custom_tv_pink"
+		    android:gravity="right"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:singleLine="true"
+		    android:text="Small Text"
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+		    android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+ </TableRow>

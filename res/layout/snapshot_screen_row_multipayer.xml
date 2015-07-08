@@ -1,0 +1,45 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+<LinearLayout
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_snapshot_signature"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight=".33"
+            android:background="@drawable/custom_tv_green"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_snapshot_amount_paid"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_tv_green"
+            android:padding="5dp"
+            android:layout_weight=".33"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_snapshot_cash_due_back"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_tv_red"
+            android:layout_weight=".33"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+   </LinearLayout>
+         
+ </TableRow>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hotel Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_whoispaying">Who is paying?</string>
+    <string name="title_activity_tip_coupon">Tip &amp; Coupon</string>
+    <string name="title_activity_reciept_screen">Receipt Screen</string>
+    <string name="title_activity_payment_option">Payment Options</string>
+    <string name="title_activity_signature_screen">Signature Screen</string>
+    <string name="title_activity_card_swipe_screen">Card Swipe Screen</string>
+    <string name="title_activity_single_payer_card_snapshot_screen">Snapshot Screen</string>
+    <string name="title_activity_cash_payment_screen">Cash Payment Screen</string>
+    <string name="title_activity_lets_go_dutch_screen">Lets Go Dutch</string>
+    <string name="title_activity_tip_coupon_multipayer">TipCoupon</string>
+    <string name="title_activity_reciept_screen_multi_payer">Reciept Screen</string>
+    <string name="title_activity_payment_option_multi_payer">Payment Option</string>
+    <string name="title_activity_card_swipe_screen_multi_payer">Card Swipe Screen</string>
+    <string name="title_activity_signature_screen_multi_payer">Signature Screen</string>
+    <string name="title_activity_card_snapshot_screen_multi_payer">Card Snapshot Screen</string>
+    <string name="title_activity_cash_payment_screen_multipayer">Cash Payment Screen</string>
+    <string name="title_activity_who_had_the_lobster">Who Had The Lobster</string>
+    <string name="title_activity_snapshot_screen_multipayer">Snapshot Screen</string>
+
+</resources>

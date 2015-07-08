@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+            
+       <Button
+        android:id="@+id/bt_checkout"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        android:background="@drawable/custom_btn_orange"
+        android:layout_margin="5dp"
+        android:text="Styled Button1" />
+        
+       <Button
+        android:id="@+id/button2"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@drawable/custom_btn_orange"
+        android:text="Styled Button2" />
+            
+       <android.support.v7.widget.Space
+           android:id="@+id/space1"
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_margin="5dp"
+           android:layout_height="100dp" />
+        
+ </TableRow>
+
